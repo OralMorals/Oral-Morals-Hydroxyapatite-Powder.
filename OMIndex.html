@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OralMorals – Hydroxyapatite Powder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OralMorals – Etsy shop selling hydroxyapatite powder for oral-care formulations, cosmetic uses, and DIY materials. Learn about our Pinterest Ads Optimization Tool and privacy policy.">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-alt: #020617;
+      --card: #020617;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.15);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1e293b;
+      --danger: #f97373;
+      --radius-lg: 18px;
+      --radius-xl: 26px;
+      --shadow-soft: 0 18px 45px rgba(15,23,42,0.9);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0b1120 0, #020617 55%, #000 100%);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #e5e7eb, #38bdf8 40%, #0ea5e9 60%, #020617 100%);
+      box-shadow: 0 0 40px rgba(56,189,248,0.5);
+    }
+
+    .brand-text-main {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+
+    .brand-text-sub {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    nav a {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 0.12em;
+      margin-left: 18px;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.4fr);
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    .hero-main {
+      padding: 24px 22px;
+      border-radius: var(--radius-xl);
+      background: radial-gradient(circle at top left, rgba(56,189,248,0.25), transparent 52%),
+                  linear-gradient(145deg, rgba(15,23,42,0.95), rgba(15,23,42,0.98));
+      border: 1px solid rgba(148,163,184,0.3);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .eyebrow {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.17em;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .hero-title {
+      font-size: 2.0rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .hero-gradient-word {
+      background: linear-gradient(120deg, #38bdf8, #e0f2fe);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 0.98rem;
+      color: var(--muted);
+      margin-bottom: 18px;
+      max-width: 520px;
+    }
+
+    .hero-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .chip {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.35);
+      color: var(--muted);
+      letter-spacing: 0.12em;
+    }
+
+    .chip--accent {
+      border-color: rgba(56,189,248,0.7);
+      background: rgba(15,23,42,0.8);
+      color: #e0f2fe;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 9px 18px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-size: 0.86rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: none;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: radial-gradient(circle at top left, #38bdf8, #0ea5e9);
+      box-shadow: 0 14px 30px rgba(56,189,248,0.5);
+      color: #020617;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.08);
+      text-decoration: none;
+    }
+
+    .btn-ghost {
+      border-color: rgba(148,163,184,0.4);
+      color: var(--muted);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .hero-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .hero-note strong {
+      color: #e5e7eb;
+      font-weight: 600;
+    }
+
+    .hero-side {
+      padding: 18px 18px 20px;
+      border-radius: var(--radius-xl);
+      border: 1px solid rgba(148,163,184,0.4);
+      background: radial-gradient(circle at top right, rgba(56,189,248,0.12), transparent 55%),
+                  linear-gradient(145deg, rgba(15,23,42,0.96), rgba(15,23,42,0.99));
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-side-title {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .hero-side-box {
+      border-radius: var(--radius-lg);
+      padding: 12px 12px 8px;
+      background: rgba(15,23,42,0.95);
+      border: 1px solid var(--border);
+      margin-bottom: 10px;
+    }
+
+    .hero-side-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .hero-side-value {
+      font-size: 0.88rem;
+    }
+
+    .hero-side-value strong {
+      font-weight: 600;
+    }
+
+    .hero-side-eta {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .section {
+      margin-top: 40px;
+      padding: 22px 20px;
+      border-radius: var(--radius-xl);
+      background: rgba(15,23,42,0.96);
+      border: 1px solid rgba(30,64,175,0.7);
+      box-shadow: 0 16px 35px rgba(15,23,42,0.9);
+    }
+
+    .section-alt {
+      border-color: rgba(75,85,99,0.7);
+      background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(12,18,32,0.99));
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+    }
+
+    .section-kicker {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .section p {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin: 0 0 10px;
+    }
+
+    .section ul {
+      margin: 8px 0 4px 18px;
+      padding: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .section li {
+      margin-bottom: 4px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .pill {
+      font-size: 0.76rem;
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.45);
+      color: var(--muted);
+    }
+
+    .pill-strong {
+      border-color: rgba(56,189,248,0.8);
+      color: #e0f2fe;
+      background: var(--accent-soft);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 12px;
+    }
+
+    .card {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      padding: 12px 12px 10px;
+      background: rgba(15,23,42,0.98);
+    }
+
+    .card-title {
+      font-size: 0.96rem;
+      margin-bottom: 4px;
+    }
+
+    .card p {
+      font-size: 0.87rem;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .privacy-heading {
+      font-size: 0.96rem;
+      margin-top: 14px;
+      margin-bottom: 4px;
+    }
+
+    .privacy-date {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(30,64,175,0.7);
+      font-size: 0.78rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    footer a {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    footer a:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div>
+          <div class="brand-text-main">ORALMORALS</div>
+          <div class="brand-text-sub">Hydroxyapatite Powder & Internal Ads Tool</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#shop">Shop</a>
+        <a href="#tool">Ads Tool</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-main">
+          <div class="eyebrow">Hydroxyapatite • Etsy storefront</div>
+          <h1 class="hero-title">
+            OralMorals – <span class="hero-gradient-word">Hydroxyapatite Powder</span> for Oral Care & Formulations
+          </h1>
+          <p class="hero-subtitle">
+            OralMorals is a small e-commerce shop focused on hydroxyapatite powder for use in
+            DIY oral-care products, cosmetic formulations, and materials research.
+            We promote our products via a Pinterest business account linked to our Etsy shop.
+          </p>
+
+          <div class="hero-chip-row">
+            <div class="chip chip--accent">Etsy Seller</div>
+            <div class="chip">Hydroxyapatite Powder</div>
+            <div class="chip">Oral-Care & Cosmetic Uses</div>
+            <div class="chip">Internal Pinterest Ads Tool</div>
+          </div>
+
+          <div class="hero-cta-row">
+            <a class="btn btn-primary" href="https://www.etsy.com/shop/OralMorals" target="_blank" rel="noopener noreferrer">
+              Visit OralMorals on Etsy
+            </a>
+            <a class="btn btn-ghost" href="#privacy">
+              View Privacy Policy
+            </a>
+          </div>
+          <div class="hero-note">
+            <strong>Note:</strong> The “OralMorals Ads Optimization Tool” is a private internal tool
+            used only to manage and analyze our own Pinterest advertising. It is not a public app.
+          </div>
+        </div>
+
+        <aside class="hero-side">
+          <div class="hero-side-title">Pinterest Ads Optimization Tool</div>
+
+          <div class="hero-side-box">
+            <div class="hero-side-label">Purpose</div>
+            <div class="hero-side-value">
+              <strong>Internal optimization of Pinterest ads</strong> promoting the OralMorals hydroxyapatite
+              products listed on our Etsy shop.
+            </div>
+          </div>
+
+          <div class="hero-side-box">
+            <div class="hero-side-label">Who uses the app?</div>
+            <div class="hero-side-value">
+              <strong>Only the shop owner.</strong> The tool is not available to other Pinterest users and does not
+              allow external accounts to connect.
+            </div>
+          </div>
+
+          <div class="hero-side-box">
+            <div class="hero-side-label">Data scope</div>
+            <div class="hero-side-value">
+              The app accesses <strong>only</strong> our own Pinterest business account data:
+              campaigns, ad groups, ads, Pins, and aggregated performance metrics
+              (impressions, clicks, spend).
+            </div>
+            <div class="hero-side-eta">
+              No scraping, no third-party user data, and no resale of Pinterest data.
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="shop" class="section">
+        <div class="section-kicker">Etsy Shop</div>
+        <h2 class="section-title">Shop OralMorals Hydroxyapatite on Etsy</h2>
+        <p>
+          OralMorals currently operates through an Etsy storefront, where we offer hydroxyapatite powder
+          intended for use in:
+        </p>
+        <ul>
+          <li>DIY oral-care formulations (such as experimental toothpaste bases)</li>
+          <li>Cosmetic and personal-care product formulations</li>
+          <li>Materials research, art, and other hobbyist applications</li>
+        </ul>
+        <p>
+          All sales, payments, reviews, and order handling take place directly through Etsy and are
+          governed by Etsy’s own terms and policies.
+        </p>
+
+        <div class="pill-row">
+          <span class="pill pill-strong">Sold on Etsy</span>
+          <span class="pill">Hydroxyapatite Powder</span>
+          <span class="pill">Small-Batch E-Commerce</span>
+        </div>
+
+        <p style="margin-top: 12px;">
+          <a href="https://www.etsy.com/shop/OralMorals" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Go to the OralMorals Etsy Shop
+          </a>
+        </p>
+      </section>
+
+      <section id="tool" class="section section-alt">
+        <div class="section-kicker">Internal Software</div>
+        <h2 class="section-title">What is the OralMorals Ads Optimization Tool?</h2>
+        <p>
+          The OralMorals Ads Optimization Tool is a small internal software application that connects
+          to the OralMorals Pinterest business account using the official Pinterest API.
+          Its purpose is to help manage and optimize advertising for the OralMorals Etsy shop.
+        </p>
+
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-tag">Scope</div>
+            <div class="card-title">Used only for our own account</div>
+            <p>
+              The tool manages <strong>only</strong> our own campaigns and Pins. It is not provided to the
+              public and does not allow external Pinterest users to authenticate or connect.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-tag">Function</div>
+            <div class="card-title">Ad &amp; Analytics automation</div>
+            <p>
+              The app can create and update ad campaigns, adjust budgets and bids, and read
+              performance metrics (impressions, clicks, spend) to help us understand
+              which creatives and audiences perform best.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-tag">Data handling</div>
+            <div class="card-title">No third-party user data</div>
+            <p>
+              The app does not scrape Pinterest, does not collect personal data from
+              Pinterest users, and does not resell or share Pinterest data with any third parties.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="privacy" class="section">
+        <div class="section-kicker">Privacy</div>
+        <h2 class="section-title">Privacy Policy – OralMorals Ads Optimization Tool</h2>
+        <div class="privacy-date">
+          Last updated: <span id="privacy-date-text">[Set Date]</span>
+        </div>
+
+        <h3 class="privacy-heading">1. Overview</h3>
+        <p>
+          This privacy policy applies to the internal software tool referred to as the
+          “OralMorals Ads Optimization Tool” (“the App”). The App is used solely to
+          support advertising and analytics for the OralMorals Etsy shop, which sells
+          hydroxyapatite powder and related materials.
+        </p>
+
+        <h3 class="privacy-heading">2. What the App does</h3>
+        <p>The App connects to the OralMorals Pinterest business account and is used to:</p>
+        <ul>
+          <li>Create and manage ad campaigns, ad groups, and ads for OralMorals Pins</li>
+          <li>Retrieve performance metrics for those ads and Pins (such as impressions, clicks, and spend)</li>
+          <li>Analyze results to improve future ad targeting, budget allocation, and creatives</li>
+        </ul>
+        <p>
+          The App is not a public service or platform. It is an internal tool used only by the shop owner.
+        </p>
+
+        <h3 class="privacy-heading">3. Data accessed from Pinterest</h3>
+        <p>The App may access the following data from the OralMorals Pinterest business account:</p>
+        <ul>
+          <li>Information about OralMorals Pins, boards, campaigns, ad groups, and ads</li>
+          <li>Aggregated performance metrics such as impressions, clicks, click-through rate, and spend</li>
+        </ul>
+        <p>
+          The App does <strong>not</strong> intentionally collect personally identifiable information
+          about individual Pinterest users. All data is accessed via the official Pinterest API
+          and is limited to what Pinterest provides for the OralMorals business account.
+        </p>
+
+        <h3 class="privacy-heading">4. How data is used</h3>
+        <p>
+          Any data retrieved via the Pinterest API is used solely for:
+        </p>
+        <ul>
+          <li>Monitoring the performance of the OralMorals Pinterest ad campaigns</li>
+          <li>Improving the effectiveness of ads and Pins over time</li>
+          <li>Making informed decisions about ad budgeting and targeting</li>
+        </ul>
+        <p>
+          Data accessed by the App is not sold, rented, or shared with third parties.
+        </p>
+
+        <h3 class="privacy-heading">5. Data storage</h3>
+        <p>
+          The App may store limited aggregate analytics data (for example, daily totals
+          of impressions, clicks, and spend for OralMorals ads) in private tools such as
+          spreadsheets or databases, for the sole purpose of tracking performance over time.
+        </p>
+        <p>
+          No personal identifiers of Pinterest users are stored, and no data from other
+          Pinterest business accounts is collected.
+        </p>
+
+        <h3 class="privacy-heading">6. Third-party services</h3>
+        <p>
+          The App may be hosted or run on third-party infrastructure or hardware
+          (for example, a private server or cloud provider). These providers may process
+          data on behalf of OralMorals but do not have permission to use Pinterest data
+          for their own purposes.
+        </p>
+
+        <h3 class="privacy-heading">7. Relationship with Pinterest</h3>
+        <p>
+          The OralMorals Ads Optimization Tool is not affiliated with, endorsed by, or
+          officially sponsored by Pinterest. Use of Pinterest is governed by Pinterest’s
+          own Terms of Service and Privacy Policy.
+        </p>
+
+        <h3 class="privacy-heading" id="contact">8. Contact</h3>
+        <p>
+          If you have questions about this privacy policy or how data is handled in connection with
+          the OralMorals Ads Optimization Tool, you can contact the shop owner at:
+        </p>
+        <p><strong>thebigtoothyom@gmail.com</strong></p>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="year-span"></span> OralMorals. All rights reserved.</div>
+      <div>
+        Etsy: <a href="https://www.etsy.com/shop/OralMorals" target="_blank" rel="noopener noreferrer">OralMorals Etsy Shop</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Small helper to set current year + easy date fill
+    const yearSpan = document.getElementById('year-span');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+
+    const privacyDate = document.getElementById('privacy-date-text');
+    if (privacyDate && privacyDate.textContent === '[Set Date]') {
+      const now = new Date();
+      const monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+      const dateStr = monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear();
+      privacyDate.textContent = dateStr;
+    }
+  </script>
+</body>
+</html>
